@@ -9,7 +9,7 @@
     </div>
 </c:if>
 
-<input type="text" name="content" id="content" placeholder="Enter new task" value="${task.content}" />
+<input type="text" name="content" id="content" placeholder="Enter new task" value="${task.content}" required />
 <br /><br />
 
 <input type="hidden" name="_token" value="${_token}" />

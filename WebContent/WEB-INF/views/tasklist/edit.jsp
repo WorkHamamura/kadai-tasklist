@@ -21,11 +21,11 @@
                         }
                     }
                 </script>
-                <p><a href="${pageContext.request.contextPath}/index">Go To My TaskList</a></p>
+                <p><a href="${pageContext.request.contextPath}/index">Go To Task List</a></p>
             </c:when>
             <c:otherwise>
                 <h2>404 Error: The data you are looking for could not be found.</h2>
-                <p><a href="${pageContext.request.contextPath}/index">Go To TaskList</a></p>
+                <p><a href="${pageContext.request.contextPath}/index">Go To Task List</a></p>
             </c:otherwise>
         </c:choose>
     </c:param>

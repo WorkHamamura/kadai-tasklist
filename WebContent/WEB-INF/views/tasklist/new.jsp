@@ -8,7 +8,7 @@
             <c:import url="_form.jsp" />
         </form>
 
-        <p><a href="${pageContext.request.contextPath}/index">Go To TaskList</a></p>
+        <p><a href="${pageContext.request.contextPath}/index">Go To Task List</a></p>
 
     </c:param>
 </c:import>

@@ -7,7 +7,7 @@
                 <c:out value="${flush}"></c:out>
             </div>
         </c:if>
-        <h2>My Tasks</h2>
+        <h2>Task List</h2>
         <table>
             <tr>
                 <th id="id"> Task ID </th>
